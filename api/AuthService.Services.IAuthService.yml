@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: AuthService.Services.IAuthService
+  commentId: T:AuthService.Services.IAuthService
+  id: IAuthService
+  parent: AuthService.Services
+  children:
+  - AuthService.Services.IAuthService.LoginAsync(AuthService.DTOs.LoginDto)
+  - AuthService.Services.IAuthService.RegisterAsync(AuthService.DTOs.RegisterDto)
+  langs:
+  - csharp
+  - vb
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: AuthService.Services.IAuthService
+  type: Interface
+  source:
+    id: IAuthService
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\AuthService\AuthService\Services\IAuthService.cs
+    startLine: 4
+  assemblies:
+  - AuthService
+  namespace: AuthService.Services
+  syntax:
+    content: public interface IAuthService
+    content.vb: Public Interface IAuthService
+- uid: AuthService.Services.IAuthService.RegisterAsync(AuthService.DTOs.RegisterDto)
+  commentId: M:AuthService.Services.IAuthService.RegisterAsync(AuthService.DTOs.RegisterDto)
+  id: RegisterAsync(AuthService.DTOs.RegisterDto)
+  parent: AuthService.Services.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: RegisterAsync(RegisterDto)
+  nameWithType: IAuthService.RegisterAsync(RegisterDto)
+  fullName: AuthService.Services.IAuthService.RegisterAsync(AuthService.DTOs.RegisterDto)
+  type: Method
+  source:
+    id: RegisterAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\AuthService\AuthService\Services\IAuthService.cs
+    startLine: 6
+  assemblies:
+  - AuthService
+  namespace: AuthService.Services
+  syntax:
+    content: Task<string?> RegisterAsync(RegisterDto dto)
+    parameters:
+    - id: dto
+      type: AuthService.DTOs.RegisterDto
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function RegisterAsync(dto As RegisterDto) As Task(Of String)
+  overload: AuthService.Services.IAuthService.RegisterAsync*
+- uid: AuthService.Services.IAuthService.LoginAsync(AuthService.DTOs.LoginDto)
+  commentId: M:AuthService.Services.IAuthService.LoginAsync(AuthService.DTOs.LoginDto)
+  id: LoginAsync(AuthService.DTOs.LoginDto)
+  parent: AuthService.Services.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: LoginAsync(LoginDto)
+  nameWithType: IAuthService.LoginAsync(LoginDto)
+  fullName: AuthService.Services.IAuthService.LoginAsync(AuthService.DTOs.LoginDto)
+  type: Method
+  source:
+    id: LoginAsync
+    path: C:\Users\ali88\Desktop\Developing large systems\Exam project DLS - Banking system\AuthService\AuthService\Services\IAuthService.cs
+    startLine: 7
+  assemblies:
+  - AuthService
+  namespace: AuthService.Services
+  syntax:
+    content: Task<string?> LoginAsync(LoginDto dto)
+    parameters:
+    - id: dto
+      type: AuthService.DTOs.LoginDto
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function LoginAsync(dto As LoginDto) As Task(Of String)
+  overload: AuthService.Services.IAuthService.LoginAsync*
+references:
+- uid: AuthService.Services
+  commentId: N:AuthService.Services
+  href: AuthService.html
+  name: AuthService.Services
+  nameWithType: AuthService.Services
+  fullName: AuthService.Services
+  spec.csharp:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.Services
+    name: Services
+    href: AuthService.Services.html
+  spec.vb:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.Services
+    name: Services
+    href: AuthService.Services.html
+- uid: AuthService.Services.IAuthService.RegisterAsync*
+  commentId: Overload:AuthService.Services.IAuthService.RegisterAsync
+  href: AuthService.Services.IAuthService.html#AuthService_Services_IAuthService_RegisterAsync_AuthService_DTOs_RegisterDto_
+  name: RegisterAsync
+  nameWithType: IAuthService.RegisterAsync
+  fullName: AuthService.Services.IAuthService.RegisterAsync
+- uid: AuthService.DTOs.RegisterDto
+  commentId: T:AuthService.DTOs.RegisterDto
+  parent: AuthService.DTOs
+  href: AuthService.DTOs.RegisterDto.html
+  name: RegisterDto
+  nameWithType: RegisterDto
+  fullName: AuthService.DTOs.RegisterDto
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: AuthService.DTOs
+  commentId: N:AuthService.DTOs
+  href: AuthService.html
+  name: AuthService.DTOs
+  nameWithType: AuthService.DTOs
+  fullName: AuthService.DTOs
+  spec.csharp:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.DTOs
+    name: DTOs
+    href: AuthService.DTOs.html
+  spec.vb:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.DTOs
+    name: DTOs
+    href: AuthService.DTOs.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: AuthService.Services.IAuthService.LoginAsync*
+  commentId: Overload:AuthService.Services.IAuthService.LoginAsync
+  href: AuthService.Services.IAuthService.html#AuthService_Services_IAuthService_LoginAsync_AuthService_DTOs_LoginDto_
+  name: LoginAsync
+  nameWithType: IAuthService.LoginAsync
+  fullName: AuthService.Services.IAuthService.LoginAsync
+- uid: AuthService.DTOs.LoginDto
+  commentId: T:AuthService.DTOs.LoginDto
+  parent: AuthService.DTOs
+  href: AuthService.DTOs.LoginDto.html
+  name: LoginDto
+  nameWithType: LoginDto
+  fullName: AuthService.DTOs.LoginDto

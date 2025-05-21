@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: AuthService.Services
+  commentId: N:AuthService.Services
+  id: AuthService.Services
+  children:
+  - AuthService.Services.AuthService
+  - AuthService.Services.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: AuthService.Services
+  nameWithType: AuthService.Services
+  fullName: AuthService.Services
+  type: Namespace
+  assemblies:
+  - AuthService
+references:
+- uid: AuthService.Services.AuthService
+  commentId: T:AuthService.Services.AuthService
+  href: AuthService.Services.AuthService.html
+  name: AuthService
+  nameWithType: AuthService
+  fullName: AuthService.Services.AuthService
+- uid: AuthService.Services.IAuthService
+  commentId: T:AuthService.Services.IAuthService
+  parent: AuthService.Services
+  href: AuthService.Services.IAuthService.html
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: AuthService.Services.IAuthService
+- uid: AuthService.Services
+  commentId: N:AuthService.Services
+  href: AuthService.html
+  name: AuthService.Services
+  nameWithType: AuthService.Services
+  fullName: AuthService.Services
+  spec.csharp:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.Services
+    name: Services
+    href: AuthService.Services.html
+  spec.vb:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.Services
+    name: Services
+    href: AuthService.Services.html

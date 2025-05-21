@@ -1,0 +1,44 @@
+### YamlMime:TableOfContent
+items:
+- uid: AuthService.Controllers
+  name: AuthService.Controllers
+  type: Namespace
+  items:
+  - uid: AuthService.Controllers.AuthController
+    name: AuthController
+    type: Class
+- uid: AuthService.DTOs
+  name: AuthService.DTOs
+  type: Namespace
+  items:
+  - uid: AuthService.DTOs.LoginDto
+    name: LoginDto
+    type: Class
+  - uid: AuthService.DTOs.RegisterDto
+    name: RegisterDto
+    type: Class
+- uid: AuthService.Data
+  name: AuthService.Data
+  type: Namespace
+  items:
+  - uid: AuthService.Data.ApplicationDbContext
+    name: ApplicationDbContext
+    type: Class
+- uid: AuthService.Models
+  name: AuthService.Models
+  type: Namespace
+  items:
+  - uid: AuthService.Models.User
+    name: User
+    type: Class
+- uid: AuthService.Services
+  name: AuthService.Services
+  type: Namespace
+  items:
+  - uid: AuthService.Services.AuthService
+    name: AuthService
+    type: Class
+  - uid: AuthService.Services.IAuthService
+    name: IAuthService
+    type: Interface
+memberLayout: SamePage

@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: AuthService.DTOs
+  commentId: N:AuthService.DTOs
+  id: AuthService.DTOs
+  children:
+  - AuthService.DTOs.LoginDto
+  - AuthService.DTOs.RegisterDto
+  langs:
+  - csharp
+  - vb
+  name: AuthService.DTOs
+  nameWithType: AuthService.DTOs
+  fullName: AuthService.DTOs
+  type: Namespace
+  assemblies:
+  - AuthService
+references:
+- uid: AuthService.DTOs.LoginDto
+  commentId: T:AuthService.DTOs.LoginDto
+  parent: AuthService.DTOs
+  href: AuthService.DTOs.LoginDto.html
+  name: LoginDto
+  nameWithType: LoginDto
+  fullName: AuthService.DTOs.LoginDto
+- uid: AuthService.DTOs.RegisterDto
+  commentId: T:AuthService.DTOs.RegisterDto
+  parent: AuthService.DTOs
+  href: AuthService.DTOs.RegisterDto.html
+  name: RegisterDto
+  nameWithType: RegisterDto
+  fullName: AuthService.DTOs.RegisterDto
+- uid: AuthService.DTOs
+  commentId: N:AuthService.DTOs
+  href: AuthService.html
+  name: AuthService.DTOs
+  nameWithType: AuthService.DTOs
+  fullName: AuthService.DTOs
+  spec.csharp:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.DTOs
+    name: DTOs
+    href: AuthService.DTOs.html
+  spec.vb:
+  - uid: AuthService
+    name: AuthService
+    href: AuthService.html
+  - name: .
+  - uid: AuthService.DTOs
+    name: DTOs
+    href: AuthService.DTOs.html
